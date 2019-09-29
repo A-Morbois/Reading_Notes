@@ -1,0 +1,48 @@
+We can compare sofware development to giving birth.
+Most people think after the birth, it's over.
+
+pregnancy = designing & building soft
+...
+Most of the work is the deployment & operation + refinment + decommision
+
+" A system is not very useful if nobody can use it."
+
+"Hope is not a strategy"
+
+See img 1
+
+
+In classic ops team, it's  linear. The more workload, traffic you have, the more pople you will need.
+The SRE team automate human labor therefore, half of the time is for development but more workload doesn't require new people.
+
+Core value of an SRE Team:
+
+* Availability :
+    "No user can tell the difference between 100% and 99.999%"
+    Allow an error budget (100% - target) which are time/activities where we can choose to improve (and still be ok with the target)
+    "Outage is no longer a bad thing, it's an expected part of the process innovation"
+
+
+* Monitoring :
+    alert > ticket > logging
+
+* Emergency Response :
+      playbook/ troubleshooting  > Expert jack of all trade
+      "Human bring latency" => automation
+
+ *Change Management :
+      progressive rollout -> problem detection -> rollback
+      \-----------------------------------------------------/
+            Fully auomated
+
+* Capacity planning :
+
+    organic growth : natural usage, adoption...
+    inorganic growth : marketing, adds
+
+    need regular testing
+
+
+ * Provisionning :
+      Provisionning = Capacity + planning
+      Resources used = Demand (load) + capacity + software efficiency
