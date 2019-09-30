@@ -1,0 +1,37 @@
+
+Reliability++ =  innovation-- + cost++
+
+availibility = uptime/(uptime + downtime)  // not representative geographically speaking
+             = successful request / total request
+
+The risk tolerance is define by the product owner:
+
+  * target :
+      - entreprise vs single customer
+      - paid vs free
+      - what is expected by the consumer
+      - direct link with revenue (ie critical)?
+      - what level offer concurrency
+
+  * type of failure :
+    - what is impacted?
+    - timing? (ie working hour ?)
+
+  * cost :
+      availibility improvement ? compare to the revenue it will generate and compare
+
+  * metrics
+     infrastructure vs customer
+
+Constraint for a product can be opposite depeding of the needs:
+offline analysis vs direct query. (latency vs performance)
+
+-> for a same product, we can cluster it in a way it will react differently
+   -> creating 2 cluster, on for each type of request.
+
+
+SLO :(service level objective)
+Teams agree on an error budget (devs and SRE) // joint ownership
+Everyone knows the rules in advance and behave accordingly
+if error budget is large : dev can push to innovate and test a bit less.
+otherwise, they will be more cautious and restrein their push.
