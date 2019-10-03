@@ -1,0 +1,16 @@
+Toil : running a production service that tends to be manual, repetitive, automatable, tactical, devoid of enduring value, and that scales linearly as a service grows
+
+Consistent with this data, SREs report that their top source of toil is interrupts (that is, non-urgent service-related messages and emails).
+
+Shift for SRE of weeks when they can be bother and shift when they don't answer on call.
+
+Toil :
+ + calming task
+ + quick wins
+ + low risk
+ + low stress
+
+ - low morale : boredom, burnout...
+ - slow process
+ - confusion
+ - Stagnation
